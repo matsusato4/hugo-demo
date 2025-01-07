@@ -1,0 +1,17 @@
+baseURL = 'http://example.org/'
+languageCode = 'ja'
+title = 'Hugo Demo Site'
+theme = 'hugo-book'
+
+[params]
+  # テーマの設定
+  BookRepo = 'https://github.com/alex-shpak/hugo-book'
+  BookToC = true
+  BookComments = false
+  BookEditPath = 'edit/main/exampleSite/content'
+  
+[menu]
+  [[menu.main]]
+    name = "ホーム"
+    url = "/"
+    weight = 1
